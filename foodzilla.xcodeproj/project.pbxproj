@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F59B2B832767A8E40055D03E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B2B822767A8E40055D03E /* AppDelegate.swift */; };
+		F59B2B852767A8E40055D03E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B2B842767A8E40055D03E /* SceneDelegate.swift */; };
+		F59B2B872767A8E40055D03E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B2B862767A8E40055D03E /* ViewController.swift */; };
+		F59B2B8A2767A8E40055D03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59B2B882767A8E40055D03E /* Main.storyboard */; };
+		F59B2B8C2767A8E60055D03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59B2B8B2767A8E60055D03E /* Assets.xcassets */; };
+		F59B2B8F2767A8E60055D03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59B2B8D2767A8E60055D03E /* LaunchScreen.storyboard */; };
+		F59B2B9A2767A8E60055D03E /* foodzillaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B2B992767A8E60055D03E /* foodzillaTests.swift */; };
+		F59B2BA52767A8E60055D03E /* foodzillaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59B2BA42767A8E60055D03E /* foodzillaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F59B2B962767A8E60055D03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59B2B772767A8E40055D03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59B2B7E2767A8E40055D03E;
+			remoteInfo = foodzilla;
+		};
+		F59B2BA12767A8E60055D03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59B2B772767A8E40055D03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59B2B7E2767A8E40055D03E;
+			remoteInfo = foodzilla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F59B2B7F2767A8E40055D03E /* foodzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59B2B822767A8E40055D03E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F59B2B842767A8E40055D03E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F59B2B862767A8E40055D03E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F59B2B892767A8E40055D03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59B2B8B2767A8E60055D03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59B2B8E2767A8E60055D03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F59B2B902767A8E60055D03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59B2B952767A8E60055D03E /* foodzillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodzillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59B2B992767A8E60055D03E /* foodzillaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodzillaTests.swift; sourceTree = "<group>"; };
+		F59B2B9B2767A8E60055D03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59B2BA02767A8E60055D03E /* foodzillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodzillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59B2BA42767A8E60055D03E /* foodzillaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodzillaUITests.swift; sourceTree = "<group>"; };
+		F59B2BA62767A8E60055D03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59B2B7C2767A8E40055D03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59B2B922767A8E60055D03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59B2B9D2767A8E60055D03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F59B2B762767A8E40055D03E = {
+			isa = PBXGroup;
+			children = (
+				F59B2B812767A8E40055D03E /* foodzilla */,
+				F59B2B982767A8E60055D03E /* foodzillaTests */,
+				F59B2BA32767A8E60055D03E /* foodzillaUITests */,
+				F59B2B802767A8E40055D03E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F59B2B802767A8E40055D03E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59B2B7F2767A8E40055D03E /* foodzilla.app */,
+				F59B2B952767A8E60055D03E /* foodzillaTests.xctest */,
+				F59B2BA02767A8E60055D03E /* foodzillaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59B2B812767A8E40055D03E /* foodzilla */ = {
+			isa = PBXGroup;
+			children = (
+				F59B2B822767A8E40055D03E /* AppDelegate.swift */,
+				F59B2B842767A8E40055D03E /* SceneDelegate.swift */,
+				F59B2B862767A8E40055D03E /* ViewController.swift */,
+				F59B2B882767A8E40055D03E /* Main.storyboard */,
+				F59B2B8B2767A8E60055D03E /* Assets.xcassets */,
+				F59B2B8D2767A8E60055D03E /* LaunchScreen.storyboard */,
+				F59B2B902767A8E60055D03E /* Info.plist */,
+			);
+			path = foodzilla;
+			sourceTree = "<group>";
+		};
+		F59B2B982767A8E60055D03E /* foodzillaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F59B2B992767A8E60055D03E /* foodzillaTests.swift */,
+				F59B2B9B2767A8E60055D03E /* Info.plist */,
+			);
+			path = foodzillaTests;
+			sourceTree = "<group>";
+		};
+		F59B2BA32767A8E60055D03E /* foodzillaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F59B2BA42767A8E60055D03E /* foodzillaUITests.swift */,
+				F59B2BA62767A8E60055D03E /* Info.plist */,
+			);
+			path = foodzillaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59B2B7E2767A8E40055D03E /* foodzilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59B2BA92767A8E60055D03E /* Build configuration list for PBXNativeTarget "foodzilla" */;
+			buildPhases = (
+				F59B2B7B2767A8E40055D03E /* Sources */,
+				F59B2B7C2767A8E40055D03E /* Frameworks */,
+				F59B2B7D2767A8E40055D03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foodzilla;
+			productName = foodzilla;
+			productReference = F59B2B7F2767A8E40055D03E /* foodzilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59B2B942767A8E60055D03E /* foodzillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59B2BAC2767A8E60055D03E /* Build configuration list for PBXNativeTarget "foodzillaTests" */;
+			buildPhases = (
+				F59B2B912767A8E60055D03E /* Sources */,
+				F59B2B922767A8E60055D03E /* Frameworks */,
+				F59B2B932767A8E60055D03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59B2B972767A8E60055D03E /* PBXTargetDependency */,
+			);
+			name = foodzillaTests;
+			productName = foodzillaTests;
+			productReference = F59B2B952767A8E60055D03E /* foodzillaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F59B2B9F2767A8E60055D03E /* foodzillaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59B2BAF2767A8E60055D03E /* Build configuration list for PBXNativeTarget "foodzillaUITests" */;
+			buildPhases = (
+				F59B2B9C2767A8E60055D03E /* Sources */,
+				F59B2B9D2767A8E60055D03E /* Frameworks */,
+				F59B2B9E2767A8E60055D03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59B2BA22767A8E60055D03E /* PBXTargetDependency */,
+			);
+			name = foodzillaUITests;
+			productName = foodzillaUITests;
+			productReference = F59B2BA02767A8E60055D03E /* foodzillaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59B2B772767A8E40055D03E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F59B2B7E2767A8E40055D03E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F59B2B942767A8E60055D03E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F59B2B7E2767A8E40055D03E;
+					};
+					F59B2B9F2767A8E60055D03E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F59B2B7E2767A8E40055D03E;
+					};
+				};
+			};
+			buildConfigurationList = F59B2B7A2767A8E40055D03E /* Build configuration list for PBXProject "foodzilla" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59B2B762767A8E40055D03E;
+			productRefGroup = F59B2B802767A8E40055D03E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59B2B7E2767A8E40055D03E /* foodzilla */,
+				F59B2B942767A8E60055D03E /* foodzillaTests */,
+				F59B2B9F2767A8E60055D03E /* foodzillaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59B2B7D2767A8E40055D03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59B2B8F2767A8E60055D03E /* LaunchScreen.storyboard in Resources */,
+				F59B2B8C2767A8E60055D03E /* Assets.xcassets in Resources */,
+				F59B2B8A2767A8E40055D03E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59B2B932767A8E60055D03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59B2B9E2767A8E60055D03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59B2B7B2767A8E40055D03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59B2B872767A8E40055D03E /* ViewController.swift in Sources */,
+				F59B2B832767A8E40055D03E /* AppDelegate.swift in Sources */,
+				F59B2B852767A8E40055D03E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59B2B912767A8E60055D03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59B2B9A2767A8E60055D03E /* foodzillaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59B2B9C2767A8E60055D03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59B2BA52767A8E60055D03E /* foodzillaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59B2B972767A8E60055D03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59B2B7E2767A8E40055D03E /* foodzilla */;
+			targetProxy = F59B2B962767A8E60055D03E /* PBXContainerItemProxy */;
+		};
+		F59B2BA22767A8E60055D03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59B2B7E2767A8E40055D03E /* foodzilla */;
+			targetProxy = F59B2BA12767A8E60055D03E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F59B2B882767A8E40055D03E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59B2B892767A8E40055D03E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F59B2B8D2767A8E60055D03E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59B2B8E2767A8E60055D03E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F59B2BA72767A8E60055D03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F59B2BA82767A8E60055D03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59B2BAA2767A8E60055D03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7CCL9H6VM;
+				INFOPLIST_FILE = foodzilla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.foodzilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F59B2BAB2767A8E60055D03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7CCL9H6VM;
+				INFOPLIST_FILE = foodzilla/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.foodzilla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F59B2BAD2767A8E60055D03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7CCL9H6VM;
+				INFOPLIST_FILE = foodzillaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.foodzillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodzilla.app/foodzilla";
+			};
+			name = Debug;
+		};
+		F59B2BAE2767A8E60055D03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7CCL9H6VM;
+				INFOPLIST_FILE = foodzillaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.foodzillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodzilla.app/foodzilla";
+			};
+			name = Release;
+		};
+		F59B2BB02767A8E60055D03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7CCL9H6VM;
+				INFOPLIST_FILE = foodzillaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.foodzillaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = foodzilla;
+			};
+			name = Debug;
+		};
+		F59B2BB12767A8E60055D03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7CCL9H6VM;
+				INFOPLIST_FILE = foodzillaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.foodzillaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = foodzilla;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59B2B7A2767A8E40055D03E /* Build configuration list for PBXProject "foodzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59B2BA72767A8E60055D03E /* Debug */,
+				F59B2BA82767A8E60055D03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59B2BA92767A8E60055D03E /* Build configuration list for PBXNativeTarget "foodzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59B2BAA2767A8E60055D03E /* Debug */,
+				F59B2BAB2767A8E60055D03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59B2BAC2767A8E60055D03E /* Build configuration list for PBXNativeTarget "foodzillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59B2BAD2767A8E60055D03E /* Debug */,
+				F59B2BAE2767A8E60055D03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59B2BAF2767A8E60055D03E /* Build configuration list for PBXNativeTarget "foodzillaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59B2BB02767A8E60055D03E /* Debug */,
+				F59B2BB12767A8E60055D03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59B2B772767A8E40055D03E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_foodzilla_foodzillaUITests {
+  umbrella header "Pods-foodzilla-foodzillaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
